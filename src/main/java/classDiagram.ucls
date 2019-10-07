@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="it.unicam.cs.pa.connect4.factories.BotPlayerFactory" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/factories/BotPlayerFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="230" x="29" y="6"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="it.unicam.cs.pa.connect4.factories.InteractivePlayerFactory" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/factories/InteractivePlayerFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="232" x="507" y="3"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="it.unicam.cs.pa.connect4.factories.PlayerFactory" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/factories/PlayerFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="61" width="228" x="54" y="113"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="it.unicam.cs.pa.connect4.factories.PlayerRegistry" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/factories/PlayerRegistry.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="206" x="387" y="106"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="it.unicam.cs.pa.connect4.factories.StrategicPlayerFactory" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/factories/StrategicPlayerFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="228" x="268" y="5"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="it.unicam.cs.pa.connect4.field.Cell" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/field/Cell.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="172" x="975" y="174"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="it.unicam.cs.pa.connect4.field.Field" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/field/Field.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="178" x="385" y="368"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="it.unicam.cs.pa.connect4.field.FieldCoordinator" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/field/FieldCoordinator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="233" x="236" y="510"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="it.unicam.cs.pa.connect4.field.GameField" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/field/GameField.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="63" width="195" x="628" y="186"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="it.unicam.cs.pa.connect4.field.Move" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/field/Move.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="172" x="1150" y="287"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="it.unicam.cs.pa.connect4.field.State" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/field/State.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="172" x="1141" y="545"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="it.unicam.cs.pa.connect4.gameCore.ConsoleGame" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/gameCore/ConsoleGame.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="239" x="58" y="238"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="it.unicam.cs.pa.connect4.gameCore.Draw" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/gameCore/Draw.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="208" x="803" y="40"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="it.unicam.cs.pa.connect4.gameCore.GameResult" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/gameCore/GameResult.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="208" x="1123" y="38"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="it.unicam.cs.pa.connect4.gameCore.Winner" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/gameCore/Winner.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="208" x="1180" y="118"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="it.unicam.cs.pa.connect4.gameCore.GameCoordinator" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/gameCore/GameCoordinator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="61" width="260" x="763" y="329"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="it.unicam.cs.pa.connect4.players.BotPlayer" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/players/BotPlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="234" x="522" y="761"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="it.unicam.cs.pa.connect4.players.InteractivePlayer" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/players/InteractivePlayer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="234" x="80" y="728"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="it.unicam.cs.pa.connect4.players.Player" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/players/Player.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="61" width="233" x="688" y="444"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="it.unicam.cs.pa.connect4.players.StrategicPlayer" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/players/StrategicPlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="233" x="1040" y="754"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="it.unicam.cs.pa.connect4.view.ConsoleGameView" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/view/ConsoleGameView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="61" width="260" x="7" y="316"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="it.unicam.cs.pa.connect4.view.ConsolePlayerView" 
+    project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/view/ConsolePlayerView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="61" width="230" x="30" y="389"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="23" language="java" name="it.unicam.cs.pa.connect4.view.GameView" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/view/GameView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="177" x="359" y="252"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="24" language="java" name="it.unicam.cs.pa.connect4.view.PlayerView" project="it.unicam.cs.pa.connect4" 
+    file="/it.unicam.cs.pa.connect4/src/main/java/it/unicam/cs/pa/connect4/view/PlayerView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="173" x="10" y="545"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="25">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="26" name="lastMove"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="28">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="30">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="31" name="view"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="33">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="34">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="35" name="board"/>      
+      <multiplicity id="36" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="37">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="39">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="40" name="opponentMove"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="42">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="43">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="44" name="view"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="47" name="cellState"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="49">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="50">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="51" name="field"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="54" name="field"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="57" name="state"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="60" name="players"/>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="63" name="playerFactory2">        
+        <position height="20" width="94" x="49" y="178"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="66" name="myMove"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="69" name="field"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="72" name="instance"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="74">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="75">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="76" name="playerFactory1">        
+        <position height="20" width="94" x="74" y="188"/>      
+      </attribute>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="79" name="field"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="81">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="82">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="83" name="color"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="86" name="registry"/>      
+      <multiplicity id="87" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="89" name="color"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="91">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <generalization id="92">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="94">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="95" name="color"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="97">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
