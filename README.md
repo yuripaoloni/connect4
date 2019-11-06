@@ -13,3 +13,6 @@ The implementation carried out allows you to select between three types of playe
       choose a random column. 
       
 The symbols used are CROSS (X) and CIRCLE (O), at the end of each game it is possible to start a new one or exit the game.
+
+This project strictly follows the SOLID principles in order to favor extensibility and division of responsibilities between the
+different parts.
