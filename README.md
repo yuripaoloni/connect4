@@ -16,3 +16,11 @@ The symbols used are CROSS (X) and CIRCLE (O), at the end of each game it is pos
 
 This project strictly follows the SOLID principles in order to favor extensibility and division of responsibilities between the
 different parts.
+
+## Authors
+
+* **Yuri Paoloni** - [yuripaoloni](https://github.com/yuripaoloni)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
