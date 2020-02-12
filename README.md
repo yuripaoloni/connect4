@@ -17,7 +17,7 @@ The symbols used are CROSS (X) and CIRCLE (O), at the end of each game it is pos
 This project strictly follows the SOLID principles in order to favor extensibility and division of responsibilities between the
 different parts.
 
-## Authors
+## Author
 
 * **Yuri Paoloni** - [yuripaoloni](https://github.com/yuripaoloni)
 
