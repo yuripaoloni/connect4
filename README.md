@@ -17,6 +17,25 @@ The symbols used are CROSS (X) and CIRCLE (O), at the end of each game it is pos
 This project strictly follows the SOLID principles in order to favor extensibility and division of responsibilities between the
 different parts.
 
+## Execution
+
+Build using gradle command:
+
+```bash
+gradle build
+```
+
+Run with:
+
+```bash
+gradle run --args="arg1, arg2"
+```
+
+The allowed arguments are: 
+* `bot` : bot player who places checkers in a random way
+* `strategic`: strategic player who uses an algorithm to decide in which position place the checkers.
+* `interactive`: interactive player managed by the user
+
 ## Author
 
 * **Yuri Paoloni** - [yuripaoloni](https://github.com/yuripaoloni)
