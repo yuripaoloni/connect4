@@ -28,7 +28,7 @@ gradle build
 Run with:
 
 ```bash
-gradle run --args="arg1, arg2"
+gradle run --args="arg1 arg2"
 ```
 
 The allowed arguments are: 
